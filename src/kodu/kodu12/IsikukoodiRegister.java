@@ -13,6 +13,7 @@ public class IsikukoodiRegister {
         }
     }
 
+
     public int järjekorranumber(String isikukood) {
         synchronized (isikukoodid) {
             return isikukoodid.indexOf(isikukood);
